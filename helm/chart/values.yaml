@@ -11,5 +11,5 @@ image:
   tag: "army"
 
 config:
-  backgroundColor: white
+  backgroundColor: yellow
   loadbalancerEnabled: false
