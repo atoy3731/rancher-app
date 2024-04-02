@@ -24,7 +24,13 @@ spec:
         image: brooksphilip/rancher-demo-navlink
         ports:
         - containerPort: 8080
-
+        securityContext:
+          allowPrivilegeEscalation: false
+          capabilities:
+            drop:
+            - ALL
+          seccompProfile:
+            type: RuntimeDefault
 ---
 apiVersion: v1
 kind: Service
