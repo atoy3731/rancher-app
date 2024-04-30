@@ -1,4 +1,4 @@
 replicaCount: 3
 
 config:
-  backgroundColor: lightgrey
+  backgroundColor: blue
